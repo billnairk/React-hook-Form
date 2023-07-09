@@ -1,5 +1,7 @@
+import { UseFormRegister } from "react-hook-form";
+
 interface QuestionInputProps {
-  register: (name: string, callBack: object) => {};
+  register: UseFormRegister<any>;
   name: string;
   value: string;
 }

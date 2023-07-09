@@ -1,6 +1,6 @@
 import React from "react";
 import FormChildDiv from "../components/FormChildDiv";
-import QuestionTitleSpan from "../components/questionTitleSpan";
+import QuestionTitleSpan from "../components/QuestionTitleSpan";
 import QuestionLabel from "../components/QuestionLabel";
 import { SubmitHandler, useForm } from "react-hook-form";
 import QuestionInput from "../components/QuestionInput";
